@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article>
+    <h2>{{ page.title }}</h2>
+    <p><em>Publicado el: {{ page.date | date: "%d/%m/%Y" }}</em></p>
+    
+    <div class="post-content">
+        {{ content }}
+    </div>
+</article>
+
+<a href="/">&larr; Volver al inicio</a>

@@ -1,0 +1,10 @@
+# Carpetas generadas por Jekyll en local
+.jekyll-cache/
+_site/
+
+# Metadatos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs de errores de Docker/Ruby
+*.log
